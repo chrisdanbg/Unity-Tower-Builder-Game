@@ -9,23 +9,37 @@ public class PendulumMovementScript : MonoBehaviour {
     JointMotor motor;
     Rigidbody rigidbody;
 
-    bool isTrue = false;
+    public GameObject gameObject;
+
+    bool started = false;
 	// Use this for initialization
 	void Start () {
-        hinge = GetComponent<HingeJoint>();
+        hinge = gameObject.GetComponent<HingeJoint>();
 
-        //motor = hinge.motor;
-        rigidbody = GetComponent<Rigidbody>();
-        rigidbody.maxAngularVelocity = 1;
-        rigidbody.angularVelocity = new Vector3(0, 0, -100);
-        //Debug.Log("This time");
+        var motor = hinge.motor;
+        motor.targetVelocity = 5;
+        motor.force = 5;
+        hinge.motor = motor;
+        hinge.useMotor = true;
+        rigidbody = gameObject.GetComponent<Rigidbody>();
+       
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-     
-
+ 
+        if (!started)
+        {
+            StartCoroutine(HandleIt());
+            started = true;
+        }
 
 	}
+
+    private IEnumerator HandleIt()
+    {
+        yield return new WaitForSeconds(2.0f);
+        motor.force = 0;
+        hinge.motor = motor;
+    }
 }

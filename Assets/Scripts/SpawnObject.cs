@@ -1,26 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnObject : MonoBehaviour
 {
 
     public GameObject cube;
     public GameObject cylinder;
+    public GameObject buildingLine;
+    public GameObject GameOverPanel;
+
     GameObject clone;
-    Rigidbody cloneRigid;
-    private Vector3 priorFrameTransform;
+    GameObject oldClone;
 
     FixedJoint joint;
 
+    private Vector3 priorFrameTransform;
+
+    bool gameOver = false;
     bool isCloneDropped = false;
+
     public bool isReadyToInitiate = true;
+
+    private float currentCubePosition;
+    private float oldCubePosition;
+
+    int score;
+    public Text scoreText;
+   
+
     // Use this for initialization
     void Start()
     {
         isCloneDropped = false;
         priorFrameTransform = transform.position;
 
+        score = 0;
 
         CreateJoint();
 
@@ -29,7 +45,8 @@ public class SpawnObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isReadyToInitiate)
+       
+        if (Input.GetMouseButtonDown(0) && isReadyToInitiate && !gameOver)
         {
             isReadyToInitiate = false;
             Destroy(joint);
@@ -38,7 +55,8 @@ public class SpawnObject : MonoBehaviour
             priorFrameTransform = clone.transform.position;
 
             transform.position = new Vector3(transform.position.x, transform.position.y + 1.0f, transform.position.z);
-            StartCoroutine(Example());
+            StartCoroutine(Spawn());
+
         }
 
 
@@ -55,28 +73,60 @@ public class SpawnObject : MonoBehaviour
                 if (isCloneDropped)
                 {
                     isCloneDropped = false;
-                    Debug.Log(isCloneDropped);
                 }
                     
             }
             priorFrameTransform = clone.transform.position;
         }
 
+        if (oldClone)
+        {
+            var currentposition = oldClone.transform.position.y;
+
+            if (currentposition < buildingLine.transform.position.y)
+            {
+                gameOver = true;
+                GameOverPanel.SetActive(true);
+            }
+               
+            
+        }
+
+        scoreText.text = "Score: " + score;
     }
 
-
+    // 1.3 Seconds Later - When the clone is already stopped.
     void CreateJoint()
     {
+        if (clone)
+        {
+            oldClone = clone;
+            currentCubePosition = clone.transform.position.y;
+
+            if (currentCubePosition < oldCubePosition)
+            {
+                gameOver = true;
+                Debug.Log("Game Over");
+                GameOverPanel.SetActive(true);
+                return;
+            }
+            oldCubePosition = currentCubePosition;
+
+            score++;
+        }
+
+            
         clone = Instantiate(cube, transform.position, transform.rotation);
         joint = clone.AddComponent<FixedJoint>();
         joint.connectedBody = cylinder.GetComponent<Rigidbody>();
     }
 
-    IEnumerator Example()
+    IEnumerator Spawn()
     {
         
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.1f);
         CreateJoint();
-        isReadyToInitiate = true;
+        if (!gameOver)
+            isReadyToInitiate = true;
     }
 }
