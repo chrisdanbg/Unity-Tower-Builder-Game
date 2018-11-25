@@ -1,12 +1,14 @@
-﻿<Properties StartupConfiguration="{5C719513-8FD9-AA89-EA3D-342DF7BAE3FA}|">
+﻿<Properties StartupConfiguration="{5C719513-8FD9-AA89-EA3D-342DF7BAE3FA}|" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.TowerBuilder PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TriggerElevator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TowerBuilder Status">
     <Files>
-      <File FileName="Assets/Scripts/SpawnObject.cs" Line="80" Column="42" />
-      <File FileName="Assets/MoveCameraOnClick.cs" Line="17" Column="100" />
+      <File FileName="Assets/Scripts/SpawnObject.cs" Line="80" Column="10" />
+      <File FileName="Assets/MoveCameraOnClick.cs" Line="12" Column="5" />
       <File FileName="Assets/OnClickMoveUp.cs" Line="17" Column="40" />
       <File FileName="Assets/PendulumMovementScript.cs" Line="19" Column="13" />
       <File FileName="Assets/TriggerElevator.cs" Line="7" Column="21" />
+      <File FileName="Assets/Scripts/SwipeInput.cs" Line="1" Column="1" />
+      <File FileName="TowerBuilder Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
