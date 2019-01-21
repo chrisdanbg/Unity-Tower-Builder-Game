@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{95CC8070-59FC-FDF0-EFF7-F141F9276ABD}|" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.ItemProperties.TowerBuilder PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MoveCameraOnClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AddForceToMainMenuObject.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpawnObject.cs" Line="124" Column="5" />
-      <File FileName="Assets/MoveCameraOnClick.cs" Line="1" Column="1" />
-      <File FileName="Assets/SpawnObjectsMainMenu.cs" Line="43" Column="57" NotebookId="1" />
-      <File FileName="Assets/AddForceToMainMenuObject.cs" Line="23" Column="12" NotebookId="1" />
-      <File FileName="Assets/GameManager.cs" Line="13" Column="2" NotebookId="1" />
+      <File FileName="Assets/GameManager.cs" Line="29" Column="18" />
+      <File FileName="Assets/Scripts/MoveCameraOnClick.cs" Line="48" Column="43" />
+      <File FileName="Assets/Scripts/AddForceToMainMenuObject.cs" Line="12" Column="45" />
+      <File FileName="Assets/Scripts/SpawnObjectsMainMenu.cs" Line="28" Column="9" />
+      <File FileName="Assets/Scripts/SpawnObject.cs" Line="49" Column="103" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

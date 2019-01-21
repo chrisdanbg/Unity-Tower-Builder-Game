@@ -61,11 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AddForceToMainMenuObject.cs" />
     <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\MoveCameraOnClick.cs" />
-    <Compile Include="Assets\OnClickMoveUp.cs" />
-    <Compile Include="Assets\PendulumMovementScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -111,10 +107,14 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\AddForceToMainMenuObject.cs" />
+    <Compile Include="Assets\Scripts\MoveCameraOnClick.cs" />
+    <Compile Include="Assets\Scripts\OnClickMoveUp.cs" />
+    <Compile Include="Assets\Scripts\PendulumMovementScript.cs" />
     <Compile Include="Assets\Scripts\SpawnObject.cs" />
+    <Compile Include="Assets\Scripts\SpawnObjectsMainMenu.cs" />
     <Compile Include="Assets\Scripts\SwipeInput.cs" />
-    <Compile Include="Assets\SpawnObjectsMainMenu.cs" />
-    <Compile Include="Assets\TriggerElevator.cs" />
+    <Compile Include="Assets\Scripts\TriggerElevator.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />

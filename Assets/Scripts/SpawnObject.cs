@@ -46,7 +46,7 @@ public class SpawnObject : MonoBehaviour
     void Update()
     {
        
-        if (Input.GetMouseButtonDown(0) && isReadyToInitiate && !gameOver)
+        if (Input.GetMouseButtonDown(0) && isReadyToInitiate && !gameOver && GameManager.IsGameStarted)
         {
             isReadyToInitiate = false;
             Destroy(joint);
@@ -83,9 +83,12 @@ public class SpawnObject : MonoBehaviour
         {
             var currentposition = oldClone.transform.position.y;
 
-            if (currentposition < buildingLine.transform.position.y)
+            Debug.Log("Current " + currentposition);
+            if (currentposition < buildingLine.transform.position.y - 1)
             {
+                Debug.Log("B Lane " + buildingLine.transform.position.y);
                 gameOver = true;
+                GameManager.GameOver();
                 GameOverPanel.SetActive(true);
             }
                
@@ -106,7 +109,7 @@ public class SpawnObject : MonoBehaviour
             if (currentCubePosition < oldCubePosition)
             {
                 gameOver = true;
-                Debug.Log("Game Over");
+                GameManager.GameOver();
                 GameOverPanel.SetActive(true);
                 return;
             }
