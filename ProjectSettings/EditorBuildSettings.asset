@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ToweBuilder.unity
+    guid: d03048e0b133b4483b85d68003e3a888
+  m_configObjects: {}

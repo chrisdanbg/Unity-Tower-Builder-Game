@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{95CC8070-59FC-FDF0-EFF7-F141F9276ABD}|" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.ItemProperties.TowerBuilder PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AddForceToMainMenuObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManager.cs">
     <Files>
-      <File FileName="Assets/GameManager.cs" Line="29" Column="18" />
-      <File FileName="Assets/Scripts/MoveCameraOnClick.cs" Line="48" Column="43" />
-      <File FileName="Assets/Scripts/AddForceToMainMenuObject.cs" Line="12" Column="45" />
-      <File FileName="Assets/Scripts/SpawnObjectsMainMenu.cs" Line="28" Column="9" />
-      <File FileName="Assets/Scripts/SpawnObject.cs" Line="49" Column="103" />
+      <File FileName="Assets/Scripts/MoveCameraOnClick.cs" Line="32" Column="32" />
+      <File FileName="Assets/GameManager.cs" Line="13" Column="17" />
+      <File FileName="Assets/Scripts/SpawnObject.cs" Line="87" Column="1" />
+      <File FileName="Assets/Scripts/AddForceToMainMenuObject.cs" Line="14" Column="2" />
+      <File FileName="Assets/Scripts/OnClickMoveUp.cs" Line="18" Column="10" />
+      <File FileName="Assets/Scripts/PendulumMovementScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpawnObjectsMainMenu.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/SwipeInput.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TriggerElevator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

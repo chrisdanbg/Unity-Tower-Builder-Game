@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SpawnObject : MonoBehaviour
@@ -33,6 +35,13 @@ public class SpawnObject : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        int width = 512; // or something else
+        int height = 512; // or something else
+        bool isFullScreen = false; // should be windowed to run in arbitrary resolution
+        int desiredFPS = 60; // or something else
+
+        Screen.SetResolution(width, height, isFullScreen, desiredFPS);
+
         isCloneDropped = false;
         priorFrameTransform = transform.position;
 
@@ -83,10 +92,8 @@ public class SpawnObject : MonoBehaviour
         {
             var currentposition = oldClone.transform.position.y;
 
-            Debug.Log("Current " + currentposition);
             if (currentposition < buildingLine.transform.position.y - 1)
             {
-                Debug.Log("B Lane " + buildingLine.transform.position.y);
                 gameOver = true;
                 GameManager.GameOver();
                 GameOverPanel.SetActive(true);
@@ -111,7 +118,6 @@ public class SpawnObject : MonoBehaviour
                 gameOver = true;
                 GameManager.GameOver();
                 GameOverPanel.SetActive(true);
-                return;
             }
             oldCubePosition = currentCubePosition;
 
@@ -124,9 +130,10 @@ public class SpawnObject : MonoBehaviour
         joint.connectedBody = cylinder.GetComponent<Rigidbody>();
     }
 
+
+
     IEnumerator Spawn()
     {
-        
         yield return new WaitForSeconds(1.1f);
         CreateJoint();
         if (!gameOver)

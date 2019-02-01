@@ -108,6 +108,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\AddForceToMainMenuObject.cs" />
+    <Compile Include="Assets\Scripts\FadeCamera.cs" />
     <Compile Include="Assets\Scripts\MoveCameraOnClick.cs" />
     <Compile Include="Assets\Scripts\OnClickMoveUp.cs" />
     <Compile Include="Assets\Scripts\PendulumMovementScript.cs" />
@@ -119,6 +120,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Scripts\FadeCameraShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
