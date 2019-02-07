@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SpawnObject : MonoBehaviour
@@ -15,18 +12,19 @@ public class SpawnObject : MonoBehaviour
 
     GameObject clone;
     GameObject oldClone;
+    GameObject crane;
 
     FixedJoint joint;
 
-    private Vector3 priorFrameTransform;
+    Vector3 priorFrameTransform;
 
     bool gameOver = false;
     bool isCloneDropped = false;
 
     public bool isReadyToInitiate = true;
 
-    private float currentCubePosition;
-    private float oldCubePosition;
+    float currentCubePosition;
+    float oldCubePosition;
 
     int score;
     public Text scoreText;
@@ -35,12 +33,7 @@ public class SpawnObject : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        int width = 512; // or something else
-        int height = 512; // or something else
-        bool isFullScreen = false; // should be windowed to run in arbitrary resolution
-        int desiredFPS = 60; // or something else
-
-        Screen.SetResolution(width, height, isFullScreen, desiredFPS);
+        crane = GameObject.Find("Crane");
 
         isCloneDropped = false;
         priorFrameTransform = transform.position;
@@ -121,6 +114,11 @@ public class SpawnObject : MonoBehaviour
             }
             oldCubePosition = currentCubePosition;
 
+            if (GameObject.Find("Crane") != null)
+            {
+                Destroy(crane);
+            }
+           
             score++;
         }
 

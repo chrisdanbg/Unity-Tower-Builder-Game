@@ -10,13 +10,18 @@ public class GameManager : MonoBehaviour {
     public static bool IsGameOver = false;
     public static int loaded = 0;
 
+    Animator anim;
+
     public GameObject Canvas;
     public GameObject GameOverCanvas;
     public GameObject cameraGameObject;
+    public GameObject SpawnerToAnimate;
 
     void Start () {
         FadeIn();
-        Screen.SetResolution(640, 1136, false);
+        SpawnerToAnimate = GameObject.Find("Spawner_Main");
+        anim = SpawnerToAnimate.GetComponent<Animator>();
+
     }
 	
 	// Update is called once per frame
@@ -42,7 +47,6 @@ public class GameManager : MonoBehaviour {
     {
         IsGameStarted = false;
         IsGameOver = true;
-        //ReloadGame();
     }
 
     IEnumerator DestroyMenuItems()
@@ -61,6 +65,7 @@ public class GameManager : MonoBehaviour {
         FadeOut();
         yield return new WaitForSeconds(1.5f);
         FadeIn();
+       
         StartGame();
     }
 

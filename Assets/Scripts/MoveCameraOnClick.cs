@@ -13,8 +13,6 @@ public class MoveCameraOnClick : MonoBehaviour {
 
     Vector3 followPosition;
     Vector3 oldPosition;
-    private bool isBackToMenuScreen;
-
 
 
     // Use this for initialization
