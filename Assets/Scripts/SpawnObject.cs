@@ -18,8 +18,8 @@ public class SpawnObject : MonoBehaviour
 
     Vector3 priorFrameTransform;
 
-    bool gameOver = false;
-    bool isCloneDropped = false;
+    bool gameOver;
+    bool isCloneDropped;
 
     public bool isReadyToInitiate = true;
 
@@ -28,7 +28,7 @@ public class SpawnObject : MonoBehaviour
 
     int score;
     public Text scoreText;
-   
+    public Text gameOverScoreText;
 
     // Use this for initialization
     void Start()
@@ -64,11 +64,14 @@ public class SpawnObject : MonoBehaviour
 
         if (clone)
         {
-            
+            // If clone has stopped moving
             if (Vector3.Distance(clone.transform.position, priorFrameTransform) > 0.01f)
             {
                 isCloneDropped = true;
-
+                if (clone.transform.position.y < buildingLine.transform.position.y - 0.4)
+                {
+                    GameOver();
+                }
             }
             else
             {
@@ -76,27 +79,23 @@ public class SpawnObject : MonoBehaviour
                 {
                     isCloneDropped = false;
                 }
-                    
             }
             priorFrameTransform = clone.transform.position;
         }
 
+        // If second and more clones are spawned
         if (oldClone)
         {
             var currentposition = oldClone.transform.position.y;
 
             if (currentposition < buildingLine.transform.position.y - 1)
             {
-                gameOver = true;
-                GameManager.GameOver();
-                GameOverPanel.SetActive(true);
+                GameOver();
             }
-               
-            
         }
-
         scoreText.text = "Score: " + score;
     }
+
 
     // 1.3 Seconds Later - When the clone is already stopped.
     void CreateJoint()
@@ -108,27 +107,22 @@ public class SpawnObject : MonoBehaviour
 
             if (currentCubePosition < oldCubePosition)
             {
-                gameOver = true;
-                GameManager.GameOver();
-                GameOverPanel.SetActive(true);
+                GameOver();
             }
             oldCubePosition = currentCubePosition;
+
 
             if (GameObject.Find("Crane") != null)
             {
                 Destroy(crane);
             }
-           
+
             score++;
         }
-
-            
         clone = Instantiate(cube, transform.position, transform.rotation);
         joint = clone.AddComponent<FixedJoint>();
         joint.connectedBody = cylinder.GetComponent<Rigidbody>();
     }
-
-
 
     IEnumerator Spawn()
     {
@@ -136,5 +130,13 @@ public class SpawnObject : MonoBehaviour
         CreateJoint();
         if (!gameOver)
             isReadyToInitiate = true;
+    }
+
+    void GameOver()
+    {
+        gameOverScoreText.text = score.ToString();
+        gameOver = true;
+        GameManager.GameOver();
+        GameOverPanel.SetActive(true);
     }
 }

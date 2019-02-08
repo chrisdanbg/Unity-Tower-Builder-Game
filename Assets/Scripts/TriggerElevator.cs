@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TriggerElevator : MonoBehaviour {
 
+    int counter = 0;
+
 	// Use this for initialization
 	void Start () {
         
@@ -13,7 +15,11 @@ public class TriggerElevator : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonDown(0))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 1.0f, transform.position.z);
+            if (counter > 0)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y + 1.0f, transform.position.z);
+            }
+            counter++;
         }
 	}
 }

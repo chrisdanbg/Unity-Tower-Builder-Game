@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 738
     height: 893
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -131,10 +131,10 @@ MonoBehaviour:
     y: 30
     width: 1815
     height: 893
-  m_MinSize: {x: 712, y: 221}
-  m_MaxSize: {x: 16012, y: 4021}
+  m_MinSize: {x: 710, y: 221}
+  m_MaxSize: {x: 16010, y: 4021}
   vertical: 1
-  controlID: 96
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,10 +157,10 @@ MonoBehaviour:
     y: 0
     width: 1815
     height: 893
-  m_MinSize: {x: 712, y: 221}
-  m_MaxSize: {x: 16012, y: 4021}
+  m_MinSize: {x: 710, y: 221}
+  m_MaxSize: {x: 16010, y: 4021}
   vertical: 0
-  controlID: 97
+  controlID: 28
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,7 +242,7 @@ MonoBehaviour:
   - {fileID: 22}
   - {fileID: 11}
   m_Selected: 4
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,8 +275,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -455,11 +455,733 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 9cdbdb4f59528409683a775ce14f9188
+        - 21400f4ca9f2b46a98f48bb2754eda26
+        - 0594173f31c174f2db6748c1b192fb30
+        - ca06abb5d2f614a8cac37d6b87fcfe41
+        - aa2cf0057a95b4386977274e97a2170d
+        - eea1d4ebda9e345bd89da0e28f77b723
+        - d03048e0b133b4483b85d68003e3a888
+        - 00000000000000008000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Animation
+          label: Animation
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Animation/SpawnCraneFlyIn.anim
+          label: SpawnCraneFlyIn.anim
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Animation/SpawnCraneFlyIn.anim
+            fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/SpawnCraneFlyIn.anim
+            projectPath: Assets/Animation/SpawnCraneFlyIn.anim
+            originalPath: 
+            status: 5
+            staged: 0
+        - path: Assets/Animation/Spawner.controller
+          label: Spawner.controller
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Animation/Spawner.controller
+            fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/Spawner.controller
+            projectPath: Assets/Animation/Spawner.controller
+            originalPath: 
+            status: 5
+            staged: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/SpawnObject.cs
+          label: SpawnObject.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/SpawnObject.cs
+            fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Scripts/SpawnObject.cs
+            projectPath: Assets/Scripts/SpawnObject.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts/TriggerElevator.cs
+          label: TriggerElevator.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/TriggerElevator.cs
+            fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Scripts/TriggerElevator.cs
+            projectPath: Assets/Scripts/TriggerElevator.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/ToweBuilder.unity
+          label: ToweBuilder.unity
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/ToweBuilder.unity
+            fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/ToweBuilder.unity
+            projectPath: Assets/ToweBuilder.unity
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: ProjectSettings/DynamicsManager.asset
+          label: DynamicsManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings/DynamicsManager.asset
+            fullPath: /Users/macbook/Desktop/TowerBuilder/ProjectSettings/DynamicsManager.asset
+            projectPath: ProjectSettings/DynamicsManager.asset
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - .vs
+        - .vs/TowerBuilder
+        - .vs/TowerBuilder/xs
+        - .vs/TowerBuilder/xs/sqlite3
+        - Assets
+        - Assets/Animation
+        - Assets/Scripts
+        - Library
+        - Library/gfu
+        - Library/gfu/cache
+        - Library/metadata
+        - Library/metadata/05
+        - Library/metadata/21
+        - Library/metadata/aa
+        - Library/metadata/ee
+        - Library/ScriptAssemblies
+        - Library/ShaderCache
+        - Library/ShaderCache/0
+        - Library/ShaderCache/5
+        - Library/ShaderCache/7
+        - Library/ShaderCache/9
+        - Library/ShaderCache/b
+        - Library/ShaderCache/d
+        - Library/ShaderCache/f
+        - obj
+        - obj/Debug
+        - ProjectSettings
+        - Temp
+        - Temp/__Backupscenes
+        values:
+        - path: .vs
+          label: .vs
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs/TowerBuilder
+          label: TowerBuilder
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs/TowerBuilder/xs
+          label: xs
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs/TowerBuilder/xs/sqlite3
+          label: sqlite3
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Animation
+          label: Animation
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library
+          label: Library
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/gfu
+          label: gfu
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/gfu/cache
+          label: cache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/05
+          label: 05
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/21
+          label: 21
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/aa
+          label: aa
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/ee
+          label: ee
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache
+          label: ShaderCache
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/0
+          label: 0
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/5
+          label: 5
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/7
+          label: 7
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/9
+          label: 9
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/b
+          label: b
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/d
+          label: d
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ShaderCache/f
+          label: f
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: obj
+          label: obj
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: obj/Debug
+          label: Debug
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp
+          label: Temp
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp/__Backupscenes
+          label: __Backupscenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -488,6 +1210,2976 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: .DS_Store
+        label: .DS_Store
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .DS_Store
+          fullPath: /Users/macbook/Desktop/TowerBuilder/.DS_Store
+          projectPath: .DS_Store
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: .vs
+        label: .vs
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs/TowerBuilder
+        label: TowerBuilder
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs/TowerBuilder/xs
+        label: xs
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs/TowerBuilder/xs/sqlite3
+        label: sqlite3
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs/TowerBuilder/xs/sqlite3/storage.ide
+        label: storage.ide
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs/TowerBuilder/xs/sqlite3/storage.ide
+          fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/sqlite3/storage.ide
+          projectPath: .vs/TowerBuilder/xs/sqlite3/storage.ide
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: .vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+        label: storage.ide-shm
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+          fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+          projectPath: .vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: .vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+        label: storage.ide-wal
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+          fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+          projectPath: .vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: .vs/TowerBuilder/xs/UserPrefs.xml
+        label: UserPrefs.xml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs/TowerBuilder/xs/UserPrefs.xml
+          fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/UserPrefs.xml
+          projectPath: .vs/TowerBuilder/xs/UserPrefs.xml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Animation
+        label: Animation
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Animation/SpawnCraneFlyIn.anim
+        label: SpawnCraneFlyIn.anim
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Animation/SpawnCraneFlyIn.anim
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/SpawnCraneFlyIn.anim
+          projectPath: Assets/Animation/SpawnCraneFlyIn.anim
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Assets/Animation/SpawnCraneFlyIn.anim.meta
+        label: SpawnCraneFlyIn.anim.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Animation/SpawnCraneFlyIn.anim.meta
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/SpawnCraneFlyIn.anim.meta
+          projectPath: Assets/Animation/SpawnCraneFlyIn.anim.meta
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Assets/Animation/Spawner.controller
+        label: Spawner.controller
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Animation/Spawner.controller
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/Spawner.controller
+          projectPath: Assets/Animation/Spawner.controller
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Assets/Animation/Spawner.controller.meta
+        label: Spawner.controller.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Animation/Spawner.controller.meta
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/Spawner.controller.meta
+          projectPath: Assets/Animation/Spawner.controller.meta
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Assets/Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/SpawnObject.cs
+        label: SpawnObject.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/SpawnObject.cs
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Scripts/SpawnObject.cs
+          projectPath: Assets/Scripts/SpawnObject.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts/TriggerElevator.cs
+        label: TriggerElevator.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/TriggerElevator.cs
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Scripts/TriggerElevator.cs
+          projectPath: Assets/Scripts/TriggerElevator.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/ToweBuilder.unity
+        label: ToweBuilder.unity
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/ToweBuilder.unity
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/ToweBuilder.unity
+          projectPath: Assets/ToweBuilder.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library
+        label: Library
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/assetDatabase3
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/assetDatabase3
+          projectPath: Library/assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/CrashedAssetImports.txt
+        label: CrashedAssetImports.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/CrashedAssetImports.txt
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/CrashedAssetImports.txt
+          projectPath: Library/CrashedAssetImports.txt
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/EditorInstance.json
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/EditorInstance.json
+          projectPath: Library/EditorInstance.json
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/gfu
+        label: gfu
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/gfu/cache
+        label: cache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/gfu/cache/gitlocks.yaml
+        label: gitlocks.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitlocks.yaml
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gitlocks.yaml
+          projectPath: Library/gfu/cache/gitlocks.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitstatusentries.yaml
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gitstatusentries.yaml
+          projectPath: Library/gfu/cache/gitstatusentries.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gittrackingstatus.yaml
+        label: gittrackingstatus.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gittrackingstatus.yaml
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gittrackingstatus.yaml
+          projectPath: Library/gfu/cache/gittrackingstatus.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gituser.yaml
+        label: gituser.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gituser.yaml
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gituser.yaml
+          projectPath: Library/gfu/cache/gituser.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/repoinfo.yaml
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/repoinfo.yaml
+          projectPath: Library/gfu/cache/repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata
+        label: metadata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/05
+        label: 05
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+        label: 0594173f31c174f2db6748c1b192fb30
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+          projectPath: Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+        label: 0594173f31c174f2db6748c1b192fb30.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+          projectPath: Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Library/metadata/21
+        label: 21
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+        label: 21400f4ca9f2b46a98f48bb2754eda26
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+          projectPath: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+        label: 21400f4ca9f2b46a98f48bb2754eda26.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+          projectPath: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Library/metadata/aa
+        label: aa
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+        label: aa2cf0057a95b4386977274e97a2170d
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+          projectPath: Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/ee
+        label: ee
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+        label: eea1d4ebda9e345bd89da0e28f77b723
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+          projectPath: Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ScriptAssemblies/Assembly-CSharp.dll
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ScriptAssemblies/Assembly-CSharp.dll
+          projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+        label: Assembly-CSharp.dll.mdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+          projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/ShaderCache
+        label: ShaderCache
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/0
+        label: 0
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+        label: 02776c529120de3f6b7ccb972e4210a8.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+          projectPath: Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/5
+        label: 5
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+        label: 55ac480ebd7ed5e6317b48011e094e05.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+          projectPath: Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/7
+        label: 7
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+        label: 7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+          projectPath: Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+        label: 7dc0c2986fa7c91544dc72e6e91097e9.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+          projectPath: Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/9
+        label: 9
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+        label: 923bf50423277e1a2ef859280dae6a19.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+          projectPath: Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+        label: 95b2854b55340a82d77ad6d7187e0a19.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+          projectPath: Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+        label: 975cef85907992e5c44a21f9909b1bd4.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+          projectPath: Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/b
+        label: b
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+        label: b11b521b76b9348bfe3c3b3305ff7733.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+          projectPath: Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/d
+        label: d
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+        label: d40106f562338cca770e46e6b9582cf8.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+          projectPath: Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/ShaderCache/f
+        label: f
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+        label: f15629d4dd0452c2fe3c4055110fa972.bin
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+          projectPath: Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Library/shadercompiler-UnityShaderCompiler0.log
+        label: shadercompiler-UnityShaderCompiler0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/shadercompiler-UnityShaderCompiler0.log
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Library/shadercompiler-UnityShaderCompiler0.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: obj
+        label: obj
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: obj/Debug
+        label: Debug
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        label: Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          fullPath: /Users/macbook/Desktop/TowerBuilder/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          projectPath: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        label: DynamicsManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/DynamicsManager.asset
+          fullPath: /Users/macbook/Desktop/TowerBuilder/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Temp
+        label: Temp
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp/__Backupscenes
+        label: __Backupscenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp/__Backupscenes/0.backup
+        label: 0.backup
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/__Backupscenes/0.backup
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/__Backupscenes/0.backup
+          projectPath: Temp/__Backupscenes/0.backup
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityLockfile
+        label: UnityLockfile
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityLockfile
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityLockfile
+          projectPath: Temp/UnityLockfile
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+        label: UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+          projectPath: Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+        label: UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+          projectPath: Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+        label: UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+          projectPath: Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+        label: UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+          projectPath: Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+        label: UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+          projectPath: Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+        label: UnityTempFile-049be9bf848ca419b851b075e15359b7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+          projectPath: Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+        label: UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+          projectPath: Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+        label: UnityTempFile-0a00eed398df34abb84af72a816af086
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+          projectPath: Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+        label: UnityTempFile-0eb814eab069842259d79afb6c5269d5
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+          projectPath: Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+        label: UnityTempFile-0f32c1267edb5401caf3d9923949291f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+          projectPath: Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+        label: UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+          projectPath: Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+        label: UnityTempFile-11720626c61a843699bc258cc0d6ade0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+          projectPath: Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+        label: UnityTempFile-11bddb842a2684000850c9129a7f8e99
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+          projectPath: Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+        label: UnityTempFile-16b3cf53d7de248a9b635299b524e697
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+          projectPath: Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+        label: UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+          projectPath: Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+        label: UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+          projectPath: Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+        label: UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+          projectPath: Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+        label: UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+          projectPath: Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+        label: UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+          projectPath: Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+        label: UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+          projectPath: Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+        label: UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+          projectPath: Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+        label: UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+          projectPath: Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+        label: UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+          projectPath: Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+        label: UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+          projectPath: Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+        label: UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+          projectPath: Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+        label: UnityTempFile-362ac285d73944b7990497fa909f790d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+          projectPath: Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+        label: UnityTempFile-3b644f8655ed0423199fed908777e54a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+          projectPath: Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+        label: UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+          projectPath: Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+        label: UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+          projectPath: Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+        label: UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+          projectPath: Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+        label: UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+          projectPath: Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+        label: UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+          projectPath: Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+        label: UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+          projectPath: Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+        label: UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+          projectPath: Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+        label: UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+          projectPath: Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+        label: UnityTempFile-5ca13457f518c4123baba28c694ef775
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+          projectPath: Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+        label: UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+          projectPath: Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+        label: UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+          projectPath: Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+        label: UnityTempFile-6b28acab575e640a18846499534929ef
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+          projectPath: Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+        label: UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+          projectPath: Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+        label: UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+          projectPath: Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+        label: UnityTempFile-6d448ca233d79456f8f21e1df3829675
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+          projectPath: Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+        label: UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+          projectPath: Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+        label: UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+          projectPath: Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+        label: UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+          projectPath: Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+        label: UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+          projectPath: Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+        label: UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+          projectPath: Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+        label: UnityTempFile-81b969fe46a5d4540948946509438942
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+          projectPath: Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+        label: UnityTempFile-83060d3c462574775bf3f73f286adc89
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+          projectPath: Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+        label: UnityTempFile-835cea683f9a14611bc4b62a35540aac
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+          projectPath: Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+        label: UnityTempFile-83ebdc848b0204d84b3b2da960772746
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+          projectPath: Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+        label: UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+          projectPath: Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+        label: UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+          projectPath: Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+        label: UnityTempFile-87da4881ea61d4555a43dea97e946160
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+          projectPath: Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+        label: UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+          projectPath: Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+        label: UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+          projectPath: Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+        label: UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+          projectPath: Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+        label: UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+          projectPath: Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+        label: UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+          projectPath: Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+        label: UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+          projectPath: Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+        label: UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+          projectPath: Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+        label: UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+          projectPath: Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+        label: UnityTempFile-a883948a467b14223924aba68e84edf9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+          projectPath: Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+        label: UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+          projectPath: Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+        label: UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+          projectPath: Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+        label: UnityTempFile-adb8997585d0c474db4a85077b9dadff
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+          projectPath: Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+        label: UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+          projectPath: Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+        label: UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+          projectPath: Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+        label: UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+          projectPath: Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+        label: UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+          projectPath: Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+        label: UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+          projectPath: Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+        label: UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+          projectPath: Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+        label: UnityTempFile-bd321d057816f41c1b60905032d85930
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+          projectPath: Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+        label: UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+          projectPath: Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+        label: UnityTempFile-c24f99f658840460492f8f2a73e018d9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+          projectPath: Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+        label: UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+          projectPath: Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+        label: UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+          projectPath: Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+        label: UnityTempFile-cdd885ef9a693416c96a0a1744060343
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+          projectPath: Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+        label: UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+          projectPath: Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+        label: UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+          projectPath: Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+        label: UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+          projectPath: Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+        label: UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+          projectPath: Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+        label: UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+          projectPath: Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+        label: UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+          projectPath: Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+        label: UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+          projectPath: Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+        label: UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+          projectPath: Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+        label: UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+          projectPath: Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+        label: UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+          projectPath: Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+        label: UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+          projectPath: Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+        label: UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+          projectPath: Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+        label: UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+          projectPath: Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+        label: UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+          projectPath: Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+        label: UnityTempFile-fda7bb80a30da436985a03c85eeda053
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+          fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+          projectPath: Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+          originalPath: 
+          status: 1
+          staged: 0
       selectedNode:
         path: 
         label: 
@@ -507,16 +4199,832 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: .DS_Store
+      fullPath: /Users/macbook/Desktop/TowerBuilder/.DS_Store
+      projectPath: .DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/TowerBuilder/xs/sqlite3/storage.ide
+      fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/sqlite3/storage.ide
+      projectPath: .vs/TowerBuilder/xs/sqlite3/storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+      fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+      projectPath: .vs/TowerBuilder/xs/sqlite3/storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+      fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+      projectPath: .vs/TowerBuilder/xs/sqlite3/storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/TowerBuilder/xs/UserPrefs.xml
+      fullPath: /Users/macbook/Desktop/TowerBuilder/.vs/TowerBuilder/xs/UserPrefs.xml
+      projectPath: .vs/TowerBuilder/xs/UserPrefs.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Animation/SpawnCraneFlyIn.anim
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/SpawnCraneFlyIn.anim
+      projectPath: Assets/Animation/SpawnCraneFlyIn.anim
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets/Animation/SpawnCraneFlyIn.anim.meta
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/SpawnCraneFlyIn.anim.meta
+      projectPath: Assets/Animation/SpawnCraneFlyIn.anim.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets/Animation/Spawner.controller
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/Spawner.controller
+      projectPath: Assets/Animation/Spawner.controller
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets/Animation/Spawner.controller.meta
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Animation/Spawner.controller.meta
+      projectPath: Assets/Animation/Spawner.controller.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets/Scripts/SpawnObject.cs
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Scripts/SpawnObject.cs
+      projectPath: Assets/Scripts/SpawnObject.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/TriggerElevator.cs
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/Scripts/TriggerElevator.cs
+      projectPath: Assets/Scripts/TriggerElevator.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/ToweBuilder.unity
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Assets/ToweBuilder.unity
+      projectPath: Assets/ToweBuilder.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CrashedAssetImports.txt
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+      projectPath: Library/metadata/05/0594173f31c174f2db6748c1b192fb30
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+      projectPath: Library/metadata/05/0594173f31c174f2db6748c1b192fb30.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+      projectPath: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+      projectPath: Library/metadata/21/21400f4ca9f2b46a98f48bb2754eda26.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+      projectPath: Library/metadata/aa/aa2cf0057a95b4386977274e97a2170d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+      projectPath: Library/metadata/ee/eea1d4ebda9e345bd89da0e28f77b723
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+      projectPath: Library/ShaderCache/0/02776c529120de3f6b7ccb972e4210a8.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+      projectPath: Library/ShaderCache/5/55ac480ebd7ed5e6317b48011e094e05.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+      projectPath: Library/ShaderCache/7/7c5ef10d7aca4d5ec9a60b7e3106df6c.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+      projectPath: Library/ShaderCache/7/7dc0c2986fa7c91544dc72e6e91097e9.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+      projectPath: Library/ShaderCache/9/923bf50423277e1a2ef859280dae6a19.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+      projectPath: Library/ShaderCache/9/95b2854b55340a82d77ad6d7187e0a19.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+      projectPath: Library/ShaderCache/9/975cef85907992e5c44a21f9909b1bd4.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+      projectPath: Library/ShaderCache/b/b11b521b76b9348bfe3c3b3305ff7733.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+      projectPath: Library/ShaderCache/d/d40106f562338cca770e46e6b9582cf8.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+      projectPath: Library/ShaderCache/f/f15629d4dd0452c2fe3c4055110fa972.bin
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: /Users/macbook/Desktop/TowerBuilder/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/DynamicsManager.asset
+      fullPath: /Users/macbook/Desktop/TowerBuilder/ProjectSettings/DynamicsManager.asset
+      projectPath: ProjectSettings/DynamicsManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityLockfile
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityLockfile
+      projectPath: Temp/UnityLockfile
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+      projectPath: Temp/UnityTempFile-004f76a32256e4d6ebf1a1f65b9a59d9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+      projectPath: Temp/UnityTempFile-007ac89d0a9644b7a8eae11e9d8eb26b
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+      projectPath: Temp/UnityTempFile-026c63f392c204f60ac2b1aa4fe7bc07
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+      projectPath: Temp/UnityTempFile-02d8b4d5e74ef44babff941aa2033455
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+      projectPath: Temp/UnityTempFile-03a79c34e3b31459eaed6fb4171bcaf4
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+      projectPath: Temp/UnityTempFile-049be9bf848ca419b851b075e15359b7
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+      projectPath: Temp/UnityTempFile-08f1ed310045742d0afc59cfc4d96543
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+      projectPath: Temp/UnityTempFile-0a00eed398df34abb84af72a816af086
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+      projectPath: Temp/UnityTempFile-0eb814eab069842259d79afb6c5269d5
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+      projectPath: Temp/UnityTempFile-0f32c1267edb5401caf3d9923949291f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+      projectPath: Temp/UnityTempFile-10d9f185546bc4b3cab53f4c22ed4d11
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+      projectPath: Temp/UnityTempFile-11720626c61a843699bc258cc0d6ade0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+      projectPath: Temp/UnityTempFile-11bddb842a2684000850c9129a7f8e99
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+      projectPath: Temp/UnityTempFile-16b3cf53d7de248a9b635299b524e697
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+      projectPath: Temp/UnityTempFile-170208c847ebb4ef3bbbe50668c4ee5c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+      projectPath: Temp/UnityTempFile-19299a64ec7a7443d9c845a08c3ee6b6
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+      projectPath: Temp/UnityTempFile-24d7807e6c5814bf4843ec3c28425bc0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+      projectPath: Temp/UnityTempFile-2892ce7ae4b914228baadb2e256edb71
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+      projectPath: Temp/UnityTempFile-2b01b50fc0fa94ffc9527c6b275b96d1
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+      projectPath: Temp/UnityTempFile-2b468db7cb2b849eebb1d37f75b96284
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+      projectPath: Temp/UnityTempFile-2b68578d6a1254a5c84dc4412ded5438
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+      projectPath: Temp/UnityTempFile-2c5ec48b2ceeb4a819f8a9d65ef52223
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+      projectPath: Temp/UnityTempFile-2f4428e511a744850a50c0c3f7c4ef50
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+      projectPath: Temp/UnityTempFile-2fc6e630b82b149bd83d40d539b10e51
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+      projectPath: Temp/UnityTempFile-316d26a38fc3645e4843d6dc2772344c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+      projectPath: Temp/UnityTempFile-362ac285d73944b7990497fa909f790d
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+      projectPath: Temp/UnityTempFile-3b644f8655ed0423199fed908777e54a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+      projectPath: Temp/UnityTempFile-401dfe57041af47d4a41bde38dda3a7a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+      projectPath: Temp/UnityTempFile-4386dc55c7b57413097876f18d5d7be7
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+      projectPath: Temp/UnityTempFile-45aa85c064faa442abb5c22fb1063c11
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+      projectPath: Temp/UnityTempFile-45f1367377ec2484b8f06b35fcc01dc0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+      projectPath: Temp/UnityTempFile-4ba63af5d563e48429954c84a4f03b11
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+      projectPath: Temp/UnityTempFile-4c81917f9b2e94a4fb53ca77180c7a61
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+      projectPath: Temp/UnityTempFile-4c849fa101a8f4fec86fea6f8e06c41b
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+      projectPath: Temp/UnityTempFile-5c69d382fca11416eb33692a74ae5d7d
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+      projectPath: Temp/UnityTempFile-5ca13457f518c4123baba28c694ef775
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+      projectPath: Temp/UnityTempFile-6383406a8ee8f43be8e64a54ce05624e
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+      projectPath: Temp/UnityTempFile-69f2e08dc34854600a54cd444224c8f2
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+      projectPath: Temp/UnityTempFile-6b28acab575e640a18846499534929ef
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+      projectPath: Temp/UnityTempFile-6bb7730f1321f41f2b84418a5364fec2
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+      projectPath: Temp/UnityTempFile-6d0e1f385ee3a4205b1093e227fc3623
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+      projectPath: Temp/UnityTempFile-6d448ca233d79456f8f21e1df3829675
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+      projectPath: Temp/UnityTempFile-6f2e6bf49f1a948859784ca05c4edb42
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+      projectPath: Temp/UnityTempFile-6f85801075c3344e1b5c3d26e4d9626b
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+      projectPath: Temp/UnityTempFile-772bf94ca8f8d4231afe39d15ced0fbd
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+      projectPath: Temp/UnityTempFile-7816a1112f9fe4e8b89bb53ca4ce0903
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+      projectPath: Temp/UnityTempFile-79702720db2f6403fb3c5349549ef9e0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+      projectPath: Temp/UnityTempFile-81b969fe46a5d4540948946509438942
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+      projectPath: Temp/UnityTempFile-83060d3c462574775bf3f73f286adc89
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+      projectPath: Temp/UnityTempFile-835cea683f9a14611bc4b62a35540aac
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+      projectPath: Temp/UnityTempFile-83ebdc848b0204d84b3b2da960772746
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+      projectPath: Temp/UnityTempFile-854bc3df761cd4492bd620d90cdb0820
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+      projectPath: Temp/UnityTempFile-878ceb8ef21e64c25bb655c80c459dc9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+      projectPath: Temp/UnityTempFile-87da4881ea61d4555a43dea97e946160
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+      projectPath: Temp/UnityTempFile-89bdcf76bc6eb4f259a91552dbe0fa41
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+      projectPath: Temp/UnityTempFile-8d5afad15e00e4587b7f1d7e48e61ba7
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+      projectPath: Temp/UnityTempFile-8e7def38e42b6471bb59de732a5939e0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+      projectPath: Temp/UnityTempFile-9974b7ff34cff4480b122bac89922fc9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+      projectPath: Temp/UnityTempFile-9dbb211924b5f4fd7b0e3f70857cbf88
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+      projectPath: Temp/UnityTempFile-9fb8b9eb1146d4dfd94c79115503522a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+      projectPath: Temp/UnityTempFile-a2809e773f0fd4bc79bd9d8a5e6d9031
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+      projectPath: Temp/UnityTempFile-a5d46d9ef78a044e1ae72c1216e95135
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+      projectPath: Temp/UnityTempFile-a883948a467b14223924aba68e84edf9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+      projectPath: Temp/UnityTempFile-a884e80f1efd1443aaef0b7485dfce3f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+      projectPath: Temp/UnityTempFile-a8b15a699dc7a45a78870d0af4a5703c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+      projectPath: Temp/UnityTempFile-adb8997585d0c474db4a85077b9dadff
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+      projectPath: Temp/UnityTempFile-ae6dd26a7c22e4c4db82b66b7127992f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+      projectPath: Temp/UnityTempFile-afc6b8a9f4fca49a8a4ccffdf3e71112
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+      projectPath: Temp/UnityTempFile-b567efc5956444845b7e5c3bdd5d81e0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+      projectPath: Temp/UnityTempFile-b58fe44eb7d4344018fac9dcd3d17101
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+      projectPath: Temp/UnityTempFile-b8f3fb416251b4192ace7cae6209c40c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+      projectPath: Temp/UnityTempFile-bbc4ac8805fa747e5a0157249a28b9a5
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+      projectPath: Temp/UnityTempFile-bd321d057816f41c1b60905032d85930
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+      projectPath: Temp/UnityTempFile-bd404ccc92e544696a72b8d10c5a4398
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+      projectPath: Temp/UnityTempFile-c24f99f658840460492f8f2a73e018d9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+      projectPath: Temp/UnityTempFile-c3380e7432e564c5696fbe7a21b71a05
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+      projectPath: Temp/UnityTempFile-c9da82bbfb95f4475a37e83c9467ee18
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+      projectPath: Temp/UnityTempFile-cdd885ef9a693416c96a0a1744060343
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+      projectPath: Temp/UnityTempFile-cf65af25509be4c8fb5c92bcfd2edeeb
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+      projectPath: Temp/UnityTempFile-d339b31c72a304ecf8e2be3a26bde91a
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+      projectPath: Temp/UnityTempFile-d7e09dc24b77e4dfaa65181eb2411d20
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+      projectPath: Temp/UnityTempFile-d881b4e2f2ef1462aace0a6db9dc14e7
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+      projectPath: Temp/UnityTempFile-dad3d94ac9e5343b69f2d90f766267cb
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+      projectPath: Temp/UnityTempFile-dbbbff93c9e6f4ee693516a1d3c05d09
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+      projectPath: Temp/UnityTempFile-dc658f08f2f974c8b8684f6c248b2810
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+      projectPath: Temp/UnityTempFile-e482cd7493ec84388bb13b968ecf38e1
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+      projectPath: Temp/UnityTempFile-e4e3f28f2a2d84423a7c3a0d02d6761d
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+      projectPath: Temp/UnityTempFile-e635300eb1e434386a18886dd36ab4fe
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+      projectPath: Temp/UnityTempFile-e85a4ff36a6e843ab9c678a57682c35c
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+      projectPath: Temp/UnityTempFile-eaaf68b4ce80a4a95b116c2a11938be2
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+      projectPath: Temp/UnityTempFile-f37ef00cf69984e30b982e74e507e8bc
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+      projectPath: Temp/UnityTempFile-fa3b1238a5cff48098b1d3fa492093f2
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+      fullPath: /Users/macbook/Desktop/TowerBuilder/Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+      projectPath: Temp/UnityTempFile-fda7bb80a30da436985a03c85eeda053
+      originalPath: 
+      status: 1
+      staged: 0
+    changedFilesText: 136 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-02-07T20:00:09.979+02:00
+      updatedTimeString: 2019-02-08T16:19:34.071+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-02-07T20:00:11.180+02:00
+      updatedTimeString: 2019-02-08T17:20:46.644+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2019-02-07T20:00:10.724+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -594,7 +5102,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2019-02-07T20:00:09.979+02:00
+      updatedTimeString: 2019-02-08T16:19:34.071+02:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/chrisdanbg/Unity-Tower-Builder-Game.git
@@ -608,7 +5116,7 @@ MonoBehaviour:
       newGitEmail: chrisdanbg@icloud.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2019-02-07T20:00:34.348+02:00
+        updatedTimeString: 2019-02-08T17:14:33.638+02:00
         cacheType: 7
     webTimeout: 3000
     gitTimeout: 5000
@@ -662,7 +5170,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/chrisdanbg/Unity-Tower-Builder-Game.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -673,13 +5181,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-02-07T20:00:09.979+02:00
+    updatedTimeString: 2019-02-08T16:19:34.071+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-02-07T20:00:10.121+02:00
+    updatedTimeString: 2019-02-08T16:19:34.605+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-02-07T20:00:11.180+02:00
+    updatedTimeString: 2019-02-08T17:20:46.644+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -811,14 +5319,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 1107895677656965868, guid: 0594173f31c174f2db6748c1b192fb30, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.76513547
+    - e00: 1
       e01: 0
       e02: 0
-      e03: -85.15643
+      e03: 0
       e10: 0
-      e11: 0.76513547
+      e11: 1
       e12: 0
-      e13: 13.772438
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -873,7 +5381,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -333358
+  m_LastSelectedObjectID: 4142
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -900,14 +5408,14 @@ MonoBehaviour:
     height: 872
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 10593.441605091095
+  lastFramingTime: 2573.214974999428
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 621, y: 1871, z: -0.000049591064}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 621, y: 1871, z: -0.000049591064}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -935,13 +5443,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.17041469, y: -0.46936592, z: 0.092855334, w: -0.86141366}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.17041458, y: -0.46936566, z: 0.09285528, w: -0.8614131}
+    m_Value: {x: -0, y: -0, z: 0, w: -1}
   m_Size:
-    m_Target: 51.104744
+    m_Target: 4287.348
     speed: 2
-    m_Value: 51.104744
+    m_Value: 4287.348
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1007,7 +5515,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff00000000
+    m_ExpandedIDs: d4faffffe4fbffff00000000d80f00000010000072100000a6100000bc100000121100002011000048110000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1023,7 +5531,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
   - ToweBuilder
@@ -1051,10 +5559,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1088
-    y: 438
-    width: 246
-    height: 530
+    x: 1265
+    y: 94
+    width: 200
+    height: 872
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
@@ -1076,8 +5584,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1469
-    y: 94
+    x: 2
+    y: 19
     width: 411
     height: 872
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -1093,19 +5601,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Crane
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/Crane
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/macbook/Desktop/TowerBuilder
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 740b0000
-    m_LastClickedID: 2932
+    m_SelectedIDs: 640d0000
+    m_LastClickedID: 3428
     m_ExpandedIDs: 00000000740a0000180f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1159,9 +5667,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 5e0f0000
+    m_LastClickedInstanceID: 3934
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: ce2400004424000032240000d4c7e9ffec24ebff8ef6e8ff4024000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
