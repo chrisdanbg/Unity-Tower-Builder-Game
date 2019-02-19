@@ -1,13 +1,7 @@
 ﻿<Properties StartupConfiguration="{95CC8070-59FC-FDF0-EFF7-F141F9276ABD}|" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.ItemProperties.TowerBuilder PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnObject.cs">
-    <Files>
-      <File FileName="Assets/GameManager.cs" Line="22" Column="60" />
-      <File FileName="Assets/Scripts/SpawnObject.cs" Line="137" Column="50" />
-      <File FileName="Assets/Scripts/TriggerElevator.cs" Line="22" Column="23" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
